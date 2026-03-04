@@ -1,0 +1,351 @@
+{
+  "deck": {
+    "name": "Espanhol Essencial",
+    "language": "spanish",
+    "description": "Vocabulário fundamental para falantes de português brasileiro — com foco em falsos cognatos e diferenças-chave.",
+    "is_builtin": 1
+  },
+  "cards": [
+    {
+      "front": "embaraçado/a (com vergonha)",
+      "back": "avergonzado/a",
+      "pronunciation": "a-ber-gon-THA-do",
+      "grammar_note": "⚠️ FALSO COGNATO: 'embarazada' em espanhol = GRÁVIDA!",
+      "tags": ["false_cognate", "adjective", "priority"],
+      "example_pt": "Fiquei embaraçado com o erro.",
+      "example_target": "Me sentí avergonzado por el error."
+    },
+    {
+      "front": "polvo (cefalópode)",
+      "back": "pulpo",
+      "pronunciation": "PUL-po",
+      "grammar_note": "⚠️ FALSO COGNATO: 'polvo' em espanhol = PÓ (poeira)!",
+      "tags": ["false_cognate", "noun", "priority"]
+    },
+    {
+      "front": "borracha (material elástico)",
+      "back": "goma / caucho",
+      "pronunciation": "GO-ma",
+      "grammar_note": "⚠️ FALSO COGNATO: 'borracha' em espanhol = mulher BÊBADA!",
+      "tags": ["false_cognate", "noun", "priority"]
+    },
+    {
+      "front": "esquisito (estranho, bizarro)",
+      "back": "raro / extraño",
+      "pronunciation": "EKS-tra-nyo",
+      "grammar_note": "⚠️ FALSO COGNATO: 'exquisito' em espanhol = DELICIOSO, requintado!",
+      "tags": ["false_cognate", "adjective", "priority"]
+    },
+    {
+      "front": "largo (extenso em largura)",
+      "back": "ancho",
+      "pronunciation": "AN-tcho",
+      "grammar_note": "⚠️ FALSO COGNATO: 'largo' em espanhol = LONGO (comprimento)! Para largura: 'ancho'.",
+      "tags": ["false_cognate", "adjective", "priority"]
+    },
+    {
+      "front": "longo (extenso em comprimento)",
+      "back": "largo",
+      "pronunciation": "LAR-go",
+      "grammar_note": "Em espanhol, 'largo' = comprimento longo. Para largura use 'ancho'.",
+      "tags": ["adjective"]
+    },
+    {
+      "front": "obrigado/a",
+      "back": "gracias",
+      "pronunciation": "GRA-thias",
+      "example_pt": "Obrigado pela ajuda!",
+      "example_target": "¡Gracias por la ayuda!",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "de nada",
+      "back": "de nada",
+      "pronunciation": "de NA-da",
+      "grammar_note": "Igual ao português! Também: 'no hay de qué'.",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "com licença / com permissão",
+      "back": "perdón / disculpe",
+      "pronunciation": "per-DON / dis-KUL-pe",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "Quanto custa?",
+      "back": "¿Cuánto cuesta?",
+      "pronunciation": "KWAN-to KWES-ta",
+      "tags": ["shopping", "basic"]
+    },
+    {
+      "front": "Onde fica...?",
+      "back": "¿Dónde está...?",
+      "pronunciation": "DON-de es-TA",
+      "grammar_note": "Usa 'estar' para localização, não 'ser'.",
+      "tags": ["location", "basic"]
+    },
+    {
+      "front": "Eu quero / Eu gostaria de",
+      "back": "Quiero / Quisiera",
+      "pronunciation": "KYERO / ki-SYERA",
+      "grammar_note": "'Quisiera' é mais educado (subjuntivo imperfecto).",
+      "example_target": "Quisiera un café, por favor.",
+      "tags": ["verb", "basic"]
+    },
+    {
+      "front": "ser (identidade, origem, profissão)",
+      "back": "ser",
+      "grammar_note": "Em espanhol, 'ser' = características permanentes: identidade, origem, material, profissão. Igual ao PT mas com diferenças sutis.",
+      "example_target": "Soy brasileño. Soy estudiante.",
+      "tags": ["verb", "ser_estar", "grammar"]
+    },
+    {
+      "front": "estar (estado temporário, localização)",
+      "back": "estar",
+      "grammar_note": "Em espanhol, 'estar' = estados temporários E localização. 'Estoy cansado' (estado), 'Estoy en casa' (lugar).",
+      "example_target": "Estoy bien. El hotel está aquí.",
+      "tags": ["verb", "ser_estar", "grammar"]
+    },
+    {
+      "front": "ir (movimento)",
+      "back": "ir",
+      "grammar_note": "Conjugação irregular: voy, vas, va, vamos, vais, van.",
+      "example_pt": "Eu vou ao mercado.",
+      "example_target": "Voy al mercado.",
+      "tags": ["verb", "irregular"]
+    },
+    {
+      "front": "ter (possuir)",
+      "back": "tener",
+      "pronunciation": "te-NER",
+      "grammar_note": "Conjugação: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+      "example_target": "Tengo hambre. (Estou com fome.)",
+      "tags": ["verb", "basic"]
+    },
+    {
+      "front": "falar",
+      "back": "hablar",
+      "pronunciation": "a-BLAR",
+      "example_target": "¿Hablas español?",
+      "tags": ["verb", "basic"]
+    },
+    {
+      "front": "comer",
+      "back": "comer",
+      "grammar_note": "Idêntico ao português! Conjugação regular em -er.",
+      "example_target": "¿Qué quieres comer?",
+      "tags": ["verb", "cognate"]
+    },
+    {
+      "front": "beber",
+      "back": "beber",
+      "grammar_note": "Idêntico! Ou use 'tomar' no contexto de bebidas.",
+      "example_target": "Quiero beber agua.",
+      "tags": ["verb", "cognate"]
+    },
+    {
+      "front": "poder (ser capaz de)",
+      "back": "poder",
+      "grammar_note": "Puedo, puedes, puede, podemos, podéis, pueden (diptongo o→ue).",
+      "example_target": "¿Puedes ayudarme?",
+      "tags": ["verb", "irregular"]
+    },
+    {
+      "front": "precisar de",
+      "back": "necesitar",
+      "pronunciation": "ne-the-si-TAR",
+      "example_target": "Necesito ayuda.",
+      "tags": ["verb", "basic"]
+    },
+    {
+      "front": "entender",
+      "back": "entender",
+      "grammar_note": "Cognato! Mas conjugação irregular: entiendo (diptongo e→ie).",
+      "example_target": "No entiendo. (Não entendo.)",
+      "tags": ["verb", "cognate"]
+    },
+    {
+      "front": "o (artigo masculino)",
+      "back": "el",
+      "grammar_note": "O artigo definido masculino. 'El libro' = o livro.",
+      "tags": ["grammar", "article"]
+    },
+    {
+      "front": "a (artigo feminino)",
+      "back": "la",
+      "grammar_note": "Artigo definido feminino. 'La casa' = a casa.",
+      "tags": ["grammar", "article"]
+    },
+    {
+      "front": "um, uma (artigo indefinido)",
+      "back": "un, una",
+      "example_target": "Un libro. Una mesa.",
+      "tags": ["grammar", "article"]
+    },
+    {
+      "front": "e (conjunção)",
+      "back": "y",
+      "grammar_note": "⚠️ Em espanhol, 'e' só é usado antes de palavras que começam com i-/hi-.",
+      "tags": ["conjunction"]
+    },
+    {
+      "front": "mas (conjunção adversativa)",
+      "back": "pero",
+      "pronunciation": "PE-ro",
+      "example_target": "Quiero ir, pero estoy cansado.",
+      "tags": ["conjunction"]
+    },
+    {
+      "front": "porque",
+      "back": "porque",
+      "grammar_note": "Idêntico! 'Por qué' (separado) = por quê (pergunta). 'Porque' (junto) = resposta.",
+      "tags": ["conjunction", "cognate"]
+    },
+    {
+      "front": "muito (intensificador)",
+      "back": "muy / mucho",
+      "grammar_note": "'Muy' antes de adjetivos/advérbios: 'muy bien'. 'Mucho' com verbos/substantivos: 'mucho tiempo'.",
+      "example_target": "Muy bien. Tengo mucho trabajo.",
+      "tags": ["adverb", "grammar"]
+    },
+    {
+      "front": "agora",
+      "back": "ahora",
+      "pronunciation": "a-O-ra",
+      "tags": ["adverb", "time"]
+    },
+    {
+      "front": "ontem",
+      "back": "ayer",
+      "pronunciation": "a-YER",
+      "tags": ["adverb", "time"]
+    },
+    {
+      "front": "hoje",
+      "back": "hoy",
+      "pronunciation": "oi",
+      "tags": ["adverb", "time"]
+    },
+    {
+      "front": "amanhã",
+      "back": "mañana",
+      "pronunciation": "ma-NYA-na",
+      "grammar_note": "O som 'ñ' = 'nh' do português. mañana = manhã E amanhã!",
+      "tags": ["adverb", "time"]
+    },
+    {
+      "front": "sempre",
+      "back": "siempre",
+      "pronunciation": "SYEM-pre",
+      "grammar_note": "Cognato, mas com diptongo: sie- (e→ie).",
+      "tags": ["adverb", "time"]
+    },
+    {
+      "front": "nunca",
+      "back": "nunca",
+      "grammar_note": "Idêntico! Mesma forma.",
+      "tags": ["adverb", "cognate"]
+    },
+    {
+      "front": "casa",
+      "back": "casa",
+      "grammar_note": "Idêntico! Mas 'en casa' = em casa (sem artigo).",
+      "tags": ["noun", "cognate"]
+    },
+    {
+      "front": "comida",
+      "back": "comida",
+      "grammar_note": "Cognato! 'La comida' = a comida.",
+      "tags": ["noun", "cognate", "food"]
+    },
+    {
+      "front": "água",
+      "back": "agua",
+      "pronunciation": "A-gwa",
+      "grammar_note": "⚠️ Gênero: 'agua' é feminino mas usa 'el' no singular (el agua fría)!",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "pão",
+      "back": "pan",
+      "pronunciation": "pan",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "carne",
+      "back": "carne",
+      "grammar_note": "Cognato! 'La carne' = a carne.",
+      "tags": ["noun", "food", "cognate"]
+    },
+    {
+      "front": "frango / galinha",
+      "back": "pollo",
+      "pronunciation": "PO-yo",
+      "grammar_note": "'Ll' em espanhol moderno soa como 'y' (yeísmo).",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "peixe",
+      "back": "pescado / pez",
+      "grammar_note": "'Pescado' = peixe para comer. 'Pez' = peixe vivo.",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "cerveja",
+      "back": "cerveza",
+      "pronunciation": "ther-VE-tha",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "vinho",
+      "back": "vino",
+      "pronunciation": "VI-no",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "café",
+      "back": "café",
+      "grammar_note": "Cognato! Mas 'café' em espanhol pode ser o local ou a bebida.",
+      "tags": ["noun", "food", "cognate"]
+    },
+    {
+      "front": "hospital",
+      "back": "hospital",
+      "grammar_note": "Cognato! 'El hospital'.",
+      "tags": ["noun", "health", "cognate"]
+    },
+    {
+      "front": "farmácia",
+      "back": "farmacia",
+      "pronunciation": "far-MA-thia",
+      "grammar_note": "Cognato com pequena diferença ortográfica.",
+      "tags": ["noun", "health"]
+    },
+    {
+      "front": "médico/a",
+      "back": "médico/a",
+      "grammar_note": "Cognato! Mesma forma.",
+      "tags": ["noun", "health", "cognate"]
+    },
+    {
+      "front": "aeroporto",
+      "back": "aeropuerto",
+      "pronunciation": "ae-ro-PWER-to",
+      "grammar_note": "Diptongo: o→ue em 'puerto'.",
+      "tags": ["noun", "travel"]
+    },
+    {
+      "front": "hotel",
+      "back": "hotel",
+      "grammar_note": "Cognato! 'El hotel'.",
+      "tags": ["noun", "travel", "cognate"]
+    },
+    {
+      "front": "banheiro",
+      "back": "baño / servicio",
+      "pronunciation": "BA-nyo",
+      "grammar_note": "'Baño' = banheiro. 'Servicio' = banheiro público. 'Cuarto de baño' = banheiro completo.",
+      "tags": ["noun", "travel"]
+    }
+  ]
+}

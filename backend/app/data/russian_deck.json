@@ -1,0 +1,421 @@
+{
+  "deck": {
+    "name": "Russo do Zero",
+    "language": "russian",
+    "description": "Do zero: alfabeto cirílico, fonética e vocabulário básico para falantes de português brasileiro.",
+    "is_builtin": 1
+  },
+  "cards": [
+    {
+      "front": "А а",
+      "back": "A — como em 'casa'",
+      "pronunciation": "a",
+      "grammar_note": "Idêntico ao A do português!",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "О о",
+      "back": "O — como em 'bola' (tônico) ou 'a' (átono)",
+      "pronunciation": "o / a",
+      "grammar_note": "Quando tônico: O. Quando átono: soa 'a'. 'Молоко' [malakO] = leite.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "М м",
+      "back": "M — como em 'mãe'",
+      "pronunciation": "m",
+      "grammar_note": "Idêntico ao M do português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Т т",
+      "back": "T — como em 'tudo' (nunca 'tchi')",
+      "pronunciation": "t",
+      "grammar_note": "O T russo nunca palataliza como o T carioca. Sempre 't' limpo.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "К к",
+      "back": "K — como em 'casa'",
+      "pronunciation": "k",
+      "grammar_note": "Idêntico!",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "В в",
+      "back": "V — como em 'você' ⚠️ Parece B!",
+      "pronunciation": "v",
+      "grammar_note": "ARMADILHA: parece um B, mas é V! В = V do português.",
+      "tags": ["alphabet", "tricky"]
+    },
+    {
+      "front": "Н н",
+      "back": "N — como em 'nada' ⚠️ Parece H!",
+      "pronunciation": "n",
+      "grammar_note": "ARMADILHA: parece H, mas é N! Н = N do português.",
+      "tags": ["alphabet", "tricky"]
+    },
+    {
+      "front": "С с",
+      "back": "S — como em 'sol' ⚠️ Parece C!",
+      "pronunciation": "s",
+      "grammar_note": "ARMADILHA: parece C, mas é S! С = S do português.",
+      "tags": ["alphabet", "tricky"]
+    },
+    {
+      "front": "Р р",
+      "back": "R vibrante — ⚠️ Parece P!",
+      "pronunciation": "r",
+      "grammar_note": "ARMADILHA: parece P, mas é R! Р = R vibrante (como no espanhol 'perro').",
+      "tags": ["alphabet", "tricky"]
+    },
+    {
+      "front": "У у",
+      "back": "U — como em 'uva' ⚠️ Parece Y!",
+      "pronunciation": "u",
+      "grammar_note": "ARMADILHA: parece Y de lado, mas é U!",
+      "tags": ["alphabet", "tricky"]
+    },
+    {
+      "front": "Е е",
+      "back": "YE — como em 'yeah'",
+      "pronunciation": "ye",
+      "grammar_note": "Soa 'ye' no início de sílaba. 'нет' [nyet] = não.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "И и",
+      "back": "I — como em 'sim'",
+      "pronunciation": "i",
+      "grammar_note": "Como o I do português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Л л",
+      "back": "L — como em 'lua'",
+      "pronunciation": "l",
+      "grammar_note": "Idêntico!",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Б б",
+      "back": "B — como em 'bola'",
+      "pronunciation": "b",
+      "grammar_note": "Idêntico ao B do português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Д д",
+      "back": "D — como em 'dado'",
+      "pronunciation": "d",
+      "grammar_note": "Idêntico!",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Г г",
+      "back": "G — como em 'gato'",
+      "pronunciation": "g",
+      "grammar_note": "Sempre G duro, nunca J como em português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "П п",
+      "back": "P — como em 'pai' ⚠️ Parece ∏!",
+      "pronunciation": "p",
+      "grammar_note": "Como o P do português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "З з",
+      "back": "Z — como em 'zero'",
+      "pronunciation": "z",
+      "grammar_note": "Como o Z do português.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Ф ф",
+      "back": "F — como em 'faca'",
+      "pronunciation": "f",
+      "grammar_note": "Idêntico!",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Ш ш",
+      "back": "SH — como em 'chuva' (português de SP)",
+      "pronunciation": "sh",
+      "grammar_note": "Som 'ch' do carioca ou 'sh' do inglês. 'Хорошо' [khorosho] = bem/bom.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ж ж",
+      "back": "ZH — como o 'j' em 'journal' (francês)",
+      "pronunciation": "zh",
+      "grammar_note": "Como o 'j' francês ou o 'j' de 'jeans'. Ex: 'Москва' não tem, mas 'жена' [zhena] = esposa.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Х х",
+      "back": "KH — como o 'ch' alemão ou R carioca",
+      "pronunciation": "kh",
+      "grammar_note": "Fricativo velar — parecido com o R carioca! 'хорошо' [khorosho] = bem.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ц ц",
+      "back": "TS — como em 'tsé-tsé'",
+      "pronunciation": "ts",
+      "grammar_note": "Combinação TS em uma letra. 'Отец' [atets] = pai.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ч ч",
+      "back": "TCH — como em 'tchau'",
+      "pronunciation": "tch",
+      "grammar_note": "Idêntico ao 'tch' do português! 'Чай' [tchai] = chá.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Я я",
+      "back": "YA — como em 'iá-iá'",
+      "pronunciation": "ya",
+      "grammar_note": "Também significa 'EU' em russo! Я = eu.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ю ю",
+      "back": "YU — como em 'você'",
+      "pronunciation": "yu",
+      "grammar_note": "Som 'yu'. 'Юг' [yug] = sul.",
+      "tags": ["alphabet", "familiar"]
+    },
+    {
+      "front": "Э э",
+      "back": "E — como em 'mel' (aberto)",
+      "pronunciation": "e",
+      "grammar_note": "E aberto, sem o Y inicial do Е.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ы ы",
+      "back": "I gutural — não existe em português",
+      "pronunciation": "y (gutural)",
+      "grammar_note": "Som entre 'i' e 'u', pronunciado com a língua recuada. Pratique: diga 'i' mas puxe a língua para trás.",
+      "tags": ["alphabet", "new_sound"]
+    },
+    {
+      "front": "Ъ ъ (sinal duro)",
+      "back": "Pausa — separa sílabas",
+      "pronunciation": "— (separador)",
+      "grammar_note": "Não tem som próprio. Indica que a consoante anterior é 'dura' (não palatalizada).",
+      "tags": ["alphabet", "special"]
+    },
+    {
+      "front": "Ь ь (sinal mole)",
+      "back": "Palatalização — suaviza a consoante anterior",
+      "pronunciation": "' (palatal)",
+      "grammar_note": "Suaviza a consoante: 'ть' = t' (mais suave). 'Мать' [mat'] = mãe.",
+      "tags": ["alphabet", "special"]
+    },
+    {
+      "front": "Oi! (informal)",
+      "back": "Привет! [privet]",
+      "pronunciation": "pri-VYET",
+      "grammar_note": "Informal — use com amigos. O formal é 'Здравствуйте' [zdrastvuyte].",
+      "example_target": "Привет! Как дела? (Oi! Como vai?)",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "Olá! (formal)",
+      "back": "Здравствуйте! [zdravstvuyte]",
+      "pronunciation": "ZDRAS-tvuy-tye",
+      "grammar_note": "Formal/plural. Para uma pessoa (informal): 'Здравствуй' [zdravstvuy].",
+      "tags": ["greeting", "formal"]
+    },
+    {
+      "front": "Tchau! / Até logo!",
+      "back": "Пока! [poka]",
+      "pronunciation": "pa-KA",
+      "grammar_note": "Informal. Mais formal: 'До свидания' [da svidaniya].",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "Obrigado/a",
+      "back": "Спасибо [spasibo]",
+      "pronunciation": "spa-SI-ba",
+      "grammar_note": "Não muda para masculino/feminino! Uma forma só.",
+      "example_target": "Большое спасибо! (Muito obrigado!)",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "Por favor",
+      "back": "Пожалуйста [pozhaluysta]",
+      "pronunciation": "pa-ZHA-lus-ta",
+      "grammar_note": "Também significa 'De nada' como resposta a obrigado!",
+      "tags": ["greeting", "basic"]
+    },
+    {
+      "front": "Sim",
+      "back": "Да [da]",
+      "pronunciation": "da",
+      "grammar_note": "Simples! Да = da.",
+      "tags": ["basic"]
+    },
+    {
+      "front": "Não",
+      "back": "Нет [nyet]",
+      "pronunciation": "nyet",
+      "grammar_note": "Нет = não. Com Н (N, não H) e Е (ye).",
+      "tags": ["basic"]
+    },
+    {
+      "front": "Meu nome é...",
+      "back": "Меня зовут... [menya zovut]",
+      "pronunciation": "mye-NYA za-VOOT",
+      "grammar_note": "Literal: 'Me chamam de...' — russo NÃO usa verbo 'ser' no presente!",
+      "example_target": "Меня зовут Карлос. (Meu nome é Carlos.)",
+      "tags": ["introductions", "grammar"]
+    },
+    {
+      "front": "Como vai? (informal)",
+      "back": "Как дела? [kak dela]",
+      "pronunciation": "kak dye-LA",
+      "grammar_note": "Literal: 'Como estão os assuntos?'. Resposta: 'Хорошо' (bem) ou 'Нормально' (normal/ok).",
+      "tags": ["greeting", "conversation"]
+    },
+    {
+      "front": "Bem / Bom",
+      "back": "Хорошо [khorosho]",
+      "pronunciation": "kha-ra-SHO",
+      "grammar_note": "O Х soa como R carioca. 'Хорошо' = bem, bom, ok.",
+      "tags": ["basic", "adjective"]
+    },
+    {
+      "front": "Eu (pronome)",
+      "back": "Я [ya]",
+      "pronunciation": "ya",
+      "grammar_note": "Я = eu. Atenção: em russo, 'Я' pode ser omitido quando o contexto é claro.",
+      "tags": ["pronoun", "basic"]
+    },
+    {
+      "front": "você (singular informal)",
+      "back": "ты [ty]",
+      "pronunciation": "ty",
+      "grammar_note": "Informal. O formal (você de respeito) é 'вы' [vy].",
+      "tags": ["pronoun", "basic"]
+    },
+    {
+      "front": "ele / ela",
+      "back": "он [on] / она [ana]",
+      "pronunciation": "on / a-NA",
+      "grammar_note": "Gênero gramatical: 'он' para masculino, 'она' para feminino.",
+      "tags": ["pronoun", "basic"]
+    },
+    {
+      "front": "nós",
+      "back": "мы [my]",
+      "pronunciation": "my",
+      "grammar_note": "Мы = nós.",
+      "tags": ["pronoun", "basic"]
+    },
+    {
+      "front": "Onde fica...?",
+      "back": "Где находится...? [gde nakhoditsa]",
+      "pronunciation": "gdye na-KHO-dit-sa",
+      "grammar_note": "Ou simplesmente 'Где...?' para uso informal.",
+      "tags": ["travel", "question"]
+    },
+    {
+      "front": "Quanto custa?",
+      "back": "Сколько стоит? [skol'ko stoit]",
+      "pronunciation": "SKOL-ka STO-it",
+      "tags": ["shopping", "question"]
+    },
+    {
+      "front": "Eu não entendo",
+      "back": "Я не понимаю [ya nye panimayu]",
+      "pronunciation": "ya nye pa-ni-MA-yu",
+      "grammar_note": "Negação: 'не' [nye] sempre antes do verbo.",
+      "tags": ["conversation", "basic"]
+    },
+    {
+      "front": "Você fala português?",
+      "back": "Вы говорите по-португальски? [vy gavaritye pa-partugalski]",
+      "pronunciation": "vy ga-va-RI-tye pa-par-tu-GAL-ski",
+      "grammar_note": "Línguas em russo: 'по-' + adjetivo da língua. 'по-русски' = em russo.",
+      "tags": ["conversation", "language"]
+    },
+    {
+      "front": "água",
+      "back": "вода [voda]",
+      "pronunciation": "va-DA",
+      "grammar_note": "O primeiro О é átono, soa 'a'. Nominativo: вода.",
+      "tags": ["noun", "food", "basic"]
+    },
+    {
+      "front": "pão",
+      "back": "хлеб [khleb]",
+      "pronunciation": "khleb",
+      "grammar_note": "O Х inicial soa como R carioca suave.",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "leite",
+      "back": "молоко [moloko]",
+      "pronunciation": "ma-la-KO",
+      "grammar_note": "Os dois O iniciais são átonos: 'ma-la-KO'.",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "chá",
+      "back": "чай [chai]",
+      "pronunciation": "tchai",
+      "grammar_note": "Ч = TCH. 'Чай' = tchái.",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "café",
+      "back": "кофе [kofe]",
+      "pronunciation": "KO-fye",
+      "tags": ["noun", "food"]
+    },
+    {
+      "front": "um, dois, três",
+      "back": "один, два, три [odin, dva, tri]",
+      "pronunciation": "a-DIN, dva, tri",
+      "grammar_note": "'Один' muda de acordo com o gênero: один (m), одна (f), одно (n).",
+      "tags": ["numbers", "basic"]
+    },
+    {
+      "front": "quatro, cinco",
+      "back": "четыре, пять [chetyire, pyat']",
+      "pronunciation": "che-TY-rye, pyat'",
+      "tags": ["numbers", "basic"]
+    },
+    {
+      "front": "seis, sete, oito",
+      "back": "шесть, семь, восемь [shest', syem', vosyem']",
+      "pronunciation": "shest', syem', VO-syem'",
+      "tags": ["numbers", "basic"]
+    },
+    {
+      "front": "nove, dez",
+      "back": "девять, десять [dyevyat', dyesyat']",
+      "pronunciation": "DYE-vyat', DYE-syat'",
+      "tags": ["numbers", "basic"]
+    },
+    {
+      "front": "Moscou",
+      "back": "Москва [Moskva]",
+      "pronunciation": "mask-VA",
+      "grammar_note": "O О átono soa 'a'. Capital da Rússia.",
+      "tags": ["geography", "proper_noun"]
+    },
+    {
+      "front": "Rússia",
+      "back": "Россия [Rossiya]",
+      "pronunciation": "ra-SI-ya",
+      "grammar_note": "О átono = 'a'. С = S (não C!).",
+      "tags": ["geography", "proper_noun"]
+    }
+  ]
+}
