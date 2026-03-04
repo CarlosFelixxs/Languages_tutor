@@ -3,11 +3,11 @@ interface Props {
   disabled?: boolean
 }
 
-const RATINGS: { value: 1 | 2 | 3 | 4; label: string; bg: string; emoji: string }[] = [
-  { value: 1, label: 'De Novo', bg: 'bg-red-500 active:bg-red-600', emoji: '✗' },
-  { value: 2, label: 'Difícil', bg: 'bg-orange-400 active:bg-orange-500', emoji: '~' },
-  { value: 3, label: 'Bom', bg: 'bg-green-500 active:bg-green-600', emoji: '✓' },
-  { value: 4, label: 'Fácil', bg: 'bg-blue-500 active:bg-blue-600', emoji: '★' },
+const RATINGS: { value: 1 | 2 | 3 | 4; label: string; glass: string; emoji: string }[] = [
+  { value: 1, label: 'De Novo', glass: 'glass-btn glass-red',    emoji: '✕' },
+  { value: 2, label: 'Difícil', glass: 'glass-btn glass-orange', emoji: '~' },
+  { value: 3, label: 'Bom',     glass: 'glass-btn glass-green',  emoji: '✓' },
+  { value: 4, label: 'Fácil',   glass: 'glass-btn glass-blue',   emoji: '★' },
 ]
 
 export default function RatingButtons({ onRate, disabled }: Props) {
@@ -18,12 +18,10 @@ export default function RatingButtons({ onRate, disabled }: Props) {
           key={r.value}
           onClick={() => onRate(r.value)}
           disabled={disabled}
-          className={`${r.bg} text-white rounded-xl py-4 flex flex-col items-center
-            active:scale-95 transition-transform touch-manipulation
-            disabled:opacity-50`}
+          className={`${r.glass} py-4 flex flex-col items-center touch-manipulation disabled:opacity-40`}
         >
           <span className="text-lg font-bold">{r.emoji}</span>
-          <span className="text-xs mt-0.5">{r.label}</span>
+          <span className="text-[11px] mt-0.5 text-white/80">{r.label}</span>
         </button>
       ))}
     </div>

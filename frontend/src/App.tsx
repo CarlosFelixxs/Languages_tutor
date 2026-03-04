@@ -10,7 +10,11 @@ import StatsPage from './pages/StatsPage'
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="max-w-lg mx-auto">
+      {/* Animated gradient mesh background */}
+      <div className="liquid-bg" />
+
+      {/* App content */}
+      <div className="relative z-10 max-w-lg mx-auto min-h-dvh">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/study" element={<StudyPage />} />

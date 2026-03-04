@@ -34,69 +34,81 @@ export default function StatsPage() {
 
   const getColor = (dateStr: string) => {
     const count = heatmap[dateStr] || 0
-    if (count === 0) return 'bg-gray-100'
-    if (count < 5) return 'bg-indigo-200'
-    if (count < 10) return 'bg-indigo-400'
-    return 'bg-indigo-600'
+    if (count === 0) return 'rgba(255,255,255,0.06)'
+    if (count < 5) return 'rgba(139,92,246,0.35)'
+    if (count < 10) return 'rgba(139,92,246,0.65)'
+    return 'rgba(139,92,246,1)'
   }
 
   return (
-    <div className="min-h-screen pb-20 px-4 pt-12">
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">Progresso</h1>
+    <div className="min-h-dvh pb-28 px-4 pt-14">
+      <p className="text-white/35 text-[10px] uppercase tracking-[0.2em] mb-1">Acompanhar</p>
+      <h1 className="text-3xl font-bold text-white mb-8">Progresso</h1>
 
-      {loading && <div className="text-gray-400 text-center py-8">Carregando...</div>}
+      {loading && <div className="text-white/30 text-center py-8">Carregando...</div>}
 
       {stats && (
-        <div className="space-y-6">
-          {/* Streak */}
-          <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-6 text-white">
-            <div className="flex items-center gap-4">
-              <div className="text-5xl">🔥</div>
-              <div>
-                <p className="text-5xl font-bold">{stats.streak}</p>
-                <p className="text-indigo-200">dias seguidos</p>
-              </div>
+        <div className="space-y-4">
+          {/* Streak banner */}
+          <div
+            className="glass px-5 py-5 flex items-center gap-5"
+            style={{ background: 'rgba(124,58,237,0.22)', borderColor: 'rgba(167,139,250,0.30)' }}
+          >
+            <div className="text-5xl">🔥</div>
+            <div>
+              <p className="text-5xl font-bold text-white leading-none">{stats.streak}</p>
+              <p className="text-violet-300/80 text-sm mt-1">dias seguidos</p>
             </div>
           </div>
 
           {/* Stats grid */}
           <div className="grid grid-cols-2 gap-3">
-            <div className="bg-white rounded-xl p-4 shadow-sm">
-              <p className="text-3xl font-bold text-gray-900">{reviewed_today}</p>
-              <p className="text-sm text-gray-500">revisadas hoje</p>
+            <div className="glass px-4 py-4">
+              <p className="text-3xl font-bold text-white">{reviewed_today}</p>
+              <p className="text-white/40 text-xs mt-1">revisadas hoje</p>
             </div>
-            <div className="bg-white rounded-xl p-4 shadow-sm">
-              <p className="text-3xl font-bold text-indigo-600">{stats.due_today}</p>
-              <p className="text-sm text-gray-500">pendentes</p>
+            <div className="glass px-4 py-4">
+              <p className="text-3xl font-bold text-violet-300">{stats.due_today}</p>
+              <p className="text-white/40 text-xs mt-1">pendentes</p>
             </div>
-            <div className="bg-white rounded-xl p-4 shadow-sm col-span-2">
-              <p className="text-3xl font-bold text-gray-900">{stats.total_cards}</p>
-              <p className="text-sm text-gray-500">cartas no total</p>
+            <div className="glass px-4 py-4 col-span-2">
+              <p className="text-3xl font-bold text-white">{stats.total_cards}</p>
+              <p className="text-white/40 text-xs mt-1">cartas no total</p>
             </div>
           </div>
 
           {/* Heatmap */}
-          <div className="bg-white rounded-xl p-4 shadow-sm">
-            <h2 className="font-semibold text-gray-900 mb-4">Últimas 12 Semanas</h2>
-            <div className="flex gap-1 overflow-x-auto pb-2">
+          <div className="glass px-4 py-4">
+            <h2 className="text-white/50 text-xs uppercase tracking-widest mb-4">Últimas 12 Semanas</h2>
+            <div className="flex gap-1 overflow-x-auto pb-2 no-scrollbar">
               {weeks.map((week, wi) => (
                 <div key={wi} className="flex flex-col gap-1">
                   {week.map((day, di) => (
                     <div
                       key={di}
                       title={`${day}: ${heatmap[day] || 0} cartas`}
-                      className={`w-5 h-5 rounded-sm ${getColor(day)}`}
+                      className="w-5 h-5 rounded-sm flex-shrink-0"
+                      style={{ background: getColor(day), border: '1px solid rgba(255,255,255,0.06)' }}
                     />
                   ))}
                 </div>
               ))}
             </div>
-            <div className="flex gap-2 mt-3 items-center">
-              <span className="text-xs text-gray-400">menos</span>
-              {['bg-gray-100', 'bg-indigo-200', 'bg-indigo-400', 'bg-indigo-600'].map((c, i) => (
-                <div key={i} className={`w-4 h-4 rounded-sm ${c}`} />
+            <div className="flex gap-2 mt-4 items-center">
+              <span className="text-white/25 text-[10px]">menos</span>
+              {[
+                'rgba(255,255,255,0.06)',
+                'rgba(139,92,246,0.35)',
+                'rgba(139,92,246,0.65)',
+                'rgba(139,92,246,1)',
+              ].map((bg, i) => (
+                <div
+                  key={i}
+                  className="w-4 h-4 rounded-sm"
+                  style={{ background: bg, border: '1px solid rgba(255,255,255,0.08)' }}
+                />
               ))}
-              <span className="text-xs text-gray-400">mais</span>
+              <span className="text-white/25 text-[10px]">mais</span>
             </div>
           </div>
         </div>
